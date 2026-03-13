@@ -23,7 +23,7 @@ Nesse repo apresento modelos do tipo **regressão** e **classificação**
 
 Tendo $x$ como entradas de treinamento, $y$ como saídas para $x$ e $\bar{y}$ a saída prevista pelo modelo:
 
-<img src="images/metricas_regressao.png" width="40%">  
+<img src="images/metricas_regressao.png" width="30%">  
 
 - Erro absoluto Médio (MAE)  
 
@@ -39,7 +39,7 @@ $$
 
 ### Métricas de Classificação
 
-<img src="images/metricas_classificacao.png" width="40%"> 
+<img src="images/metricas_classificacao.png" width="30%"> 
 
 - Acurácia 
 
@@ -51,6 +51,12 @@ $$
 
 $$
 \frac{True Positives}{True Positives + False Positives}
+$$
+
+- Recall  
+
+$$
+\frac{True Positives}{True Positives + False Negatives}
 $$
 
 
