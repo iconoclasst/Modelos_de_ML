@@ -22,6 +22,8 @@ Tendo $x$ como entradas de treinamento, $y$ como saídas para $x$ e $\bar{y}$ a 
 
 ### Métricas de Regressão  
 
+<img src="images/metricas_regressao.png" width="50%">  
+
 - Erro absoluto Médio (MAE)  
 
 $$
@@ -33,4 +35,7 @@ $$
 $$
 \frac{1}{n} {\sum_{i=1}^{n} (y_i - \bar{y}_i)^2}
 $$
+
+### Métricas de Classificação
+
 
