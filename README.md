@@ -14,3 +14,11 @@ Muito resumidamente, modelos de ML são treinados de forma supervisionada ou nã
 ## Tipos de modelo  
 Nesse repo apresento modelos do tipo **regressão** e **classificação**    
 - **Regressão** prevê um resultado contínuo $y$ de acordo com variáveis independentes $x$. Um exemplo é um modelo que lê diversos dados sobre um ambiente e sua temperatura dada as condições e consegue prever alguma temperatura de acordo com as condições passadas como entrada.   
+
+- **Classificação** prevê um resultado discreto $y$ usando variáveis independentes $x$. Um resultado discreto pode significar uma lista finita de respostas em que uma será escolhida de acordo com as entradas, ou uma classificação das entradas em alguma das respostas. Um exemplo é um modelo que classifica se um automóvel é um carro ou uma moto de acordo com as características dos dados (motor, pneus etc).  
+
+## Métricas  
+### Métricas de Regressão  
+
+- Erro absoluto Médio (MAE) = $ 1/n\sum_{i=1}^{n} (\y_i -\bar{y}_i)^2$
+
