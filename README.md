@@ -61,7 +61,7 @@ $$
 
 ### Exemplos de execução 
 
-- Regressão Linear Simples 
+- Regressão Linear Simples  
 Dados os valores de entrada $x$, o modelo aprende a criar uma relação de previsão de acordo com os valores. A diferença entre o valor previsto e o valor real é o erro. Exemplo no gráfico a seguir.  
 
-<img src="images/rls_grafico.png" width="50%">  
+<img src="images/rls_grafico.png" width="30%">  
