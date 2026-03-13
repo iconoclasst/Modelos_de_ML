@@ -18,13 +18,18 @@ Nesse repo apresento modelos do tipo **regressão** e **classificação**
 - **Classificação** prevê um resultado discreto $y$ usando variáveis independentes $x$. Um resultado discreto pode significar uma lista finita de respostas em que uma será escolhida de acordo com as entradas, ou uma classificação das entradas em alguma das respostas. Um exemplo é um modelo que classifica se um automóvel é um carro ou uma moto de acordo com as características dos dados (motor, pneus etc).  
 
 ## Métricas  
-Tendo $x$ como entradas de treinamento, $y$ como saídas para $x$ e $\bar{y}$ a saída prevista pelo modelo 
+Tendo $x$ como entradas de treinamento, $y$ como saídas para $x$ e $\bar{y}$ a saída prevista pelo modelo:
 
 ### Métricas de Regressão  
 
 - Erro absoluto Médio (MAE)  
 
 $$
-\frac{1}{n} \sum_{i=1}^{n} (y_i -\bar{y}_i)^2
+\frac{1}{n} \sum_{i=1}^{n} (| y_i -\bar{y}_i |)
 $$
 
+- Erro Quadrático Médio (MSE)
+
+$$
+\frac{1}{n} {\sum_{i=1}^{n} (y_i - \bar{y}_i)^2}
+$$
