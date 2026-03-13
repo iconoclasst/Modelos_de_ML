@@ -25,7 +25,7 @@ Tendo $x$ como entradas de treinamento, $y$ como saídas para $x$ e $\bar{y}$ a 
 - Erro absoluto Médio (MAE)  
 
 $$
-\frac{1}{n} \sum_{i=1}^{n} (| y_i -\bar{y}_i |)
+\frac{1}{n} \sum_{i=1}^{n} |( y_i -\bar{y}_i )|
 $$
 
 - Erro Quadrático Médio (MSE)
@@ -33,3 +33,4 @@ $$
 $$
 \frac{1}{n} {\sum_{i=1}^{n} (y_i - \bar{y}_i)^2}
 $$
+
