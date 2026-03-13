@@ -65,3 +65,9 @@ $$
 Dados os valores de entrada $x$, o modelo aprende a criar uma relação de previsão de acordo com os valores. A diferença entre o valor previsto e o valor real é o erro. Exemplo no gráfico a seguir.  
 
 <img src="images/rls_grafico.png" width="30%">  
+
+- Regressão de Ridge  
+Mesma propriedade da regressão simples, mas com um fator alpha que suaviza e mantém os coeficientes baixos.  
+
+<img src="images/rr_grafico.png" width="30%">  
+
