@@ -23,6 +23,6 @@ Nesse repo apresento modelos do tipo **regressão** e **classificação**
 - Erro absoluto Médio (MAE)  
 
 $$
-1/n \sum_{i=1}^{n} (y_i -\bar{y}_i)^2
+\frac{1}{n} \sum_{i=1}^{n} (y_i -\bar{y}_i)^2
 $$
 
