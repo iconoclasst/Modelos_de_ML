@@ -22,7 +22,7 @@ Tendo $x$ como entradas de treinamento, $y$ como saídas para $x$ e $\bar{y}$ a 
 
 ### Métricas de Regressão  
 
-<img src="images/metricas_regressao.png" width="50%">  
+<img src="images/metricas_regressao.png" width="40%">  
 
 - Erro absoluto Médio (MAE)  
 
