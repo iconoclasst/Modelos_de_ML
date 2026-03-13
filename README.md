@@ -38,4 +38,18 @@ $$
 
 ### Métricas de Classificação
 
+<img src="images/metricas_classificacao.png" width="40%"> 
+
+- Acurácia 
+
+$$
+\frac{Previsões Corretas}{Total de observações}
+$$
+
+- Precisão
+
+$$
+\frac{True Positives}{True Positives + False Positives}
+$$
+
 
