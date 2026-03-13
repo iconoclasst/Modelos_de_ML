@@ -1,6 +1,6 @@
 # Modelos de ML
 
-<img src="images/capa.png" width="50%">  
+<img src="images/capa1.png" width="50%">  
 
 Machine Learning vem do aprendizado estatístico e da ciência de dados  
 Dado uma entrada ou conjunto de entradas, podemos estimar $f(x)$ e prever resultados ou classificar os dados entre classes diferentes.  
