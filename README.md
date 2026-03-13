@@ -20,5 +20,8 @@ Nesse repo apresento modelos do tipo **regressão** e **classificação**
 ## Métricas  
 ### Métricas de Regressão  
 
-- Erro absoluto Médio (MAE) = $ 1/n\sum_{i=1}^{n} (\y_i -\bar{y}_i)^2$
+- Erro absoluto Médio (MAE)
+$$
+1/n\sum_{i=1}^{n} (y\_i -\bar{y}_i)^2
+$$
 
